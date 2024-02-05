@@ -144,6 +144,7 @@ ol {
 }
 .work {
   margin-left: 20px;
+  margin-bottom: 14px;
 }
 .period {
   font-style: normal;
@@ -292,6 +293,7 @@ ol {
 
 .soft_skills_item {
   color: #fb6d3a;
+  margin-bottom: 14px;
 }
 
 .soft_skills_text {
