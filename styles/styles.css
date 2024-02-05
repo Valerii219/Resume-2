@@ -22,7 +22,7 @@ ol {
 .sidebard {
   /* Стилі для бічної панелі */
   background-color: #1e2939;
-  padding: 40px;
+  padding: 60px;
   width: 400px;
 }
 
@@ -95,6 +95,11 @@ ol {
 }
 .nameA {
   color: #fb6d3a;
+}
+.text{
+  font-size: 16px;
+  line-height: calc(24/16);
+  font-weight: 500;
 }
 
 .project_item {
