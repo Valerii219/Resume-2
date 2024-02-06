@@ -42,7 +42,9 @@ ol {
   background-color: #ffffff;
   /* box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); */
   padding: 35px 90px;
+  border-left: solid 2px black;
 }
+
 
 /* about styles */
 .about {
@@ -94,7 +96,7 @@ ol {
   color: #b9b9c4;
 }
 .nameA {
-  color: #fb6d3a;
+  color: rgb(10, 50, 10);
 }
 .text{
   font-size: 16px;
@@ -189,7 +191,7 @@ ol {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  color: #fb6d3a;
+  color: rgb(10, 50, 10);
 }
 
 .education {
@@ -217,7 +219,7 @@ ol {
 
 /* sidebard class */
 .sidebard {
-  background-color: #1e2939;
+  background-color: white;
   padding-top: 35px;
   padding-bottom: 40px;
   width: 400px;
@@ -236,6 +238,7 @@ ol {
 .soft_skills {
   margin-left: 40px;
   margin-bottom: 40px;
+  border-bottom: solid 2px black;
 }
 
 .soft_skills {
@@ -248,6 +251,7 @@ ol {
   font-size: 22px;
   line-height: 27px;
   margin-bottom: 14px;
+  color: #000000;
 }
 
 .contact_type {
@@ -263,7 +267,7 @@ ol {
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
-  color: #fb6d3a;
+  color: rgb(10, 50, 10);;
 }
 .contact_links {
   text-decoration: none;
@@ -275,7 +279,7 @@ ol {
 }
 
 .tech_skills_item {
-  color: #fb6d3a;
+  color: rgb(10, 50, 10);
   margin-bottom: 14px;
 }
 
@@ -292,7 +296,7 @@ ol {
 }
 
 .soft_skills_item {
-  color: #fb6d3a;
+  color:rgb(10, 50, 10);
   margin-bottom: 14px;
 }
 
