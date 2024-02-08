@@ -39,26 +39,26 @@ ol {
 
 /* main content styles */
 .main_content {
-  flex: 1;
+  /* flex: 1; */
   background-color: #ffffff;
   /* box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); */
-  padding: 35px 90px;
+  padding: 30px;
   /* border-left: solid 2px black; */
 }
 
 /* about styles */
 .about {
-  margin-bottom: 10px;
   text-align: center;
 }
 
 .about_name {
   font-style: normal;
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 55px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
   color: black;
   margin: 0;
+  text-transform: uppercase;
 }
 
 .about_description {
@@ -99,11 +99,15 @@ ol {
 .nameA {
   color: rgb(10, 50, 10);
 }
+h3 {
+  margin: 0;
+}
 .text {
   font-size: 16px;
   line-height: calc(24 / 16);
   font-weight: 500;
   text-align: left;
+  margin: 0;
 }
 
 .project_item {
@@ -156,8 +160,8 @@ ol {
   font-size: 14px;
   line-height: 18px;
   color: blue;
-  text-align: end;
   margin: 0;
+  text-align: end;
 }
 
 .line {
@@ -198,7 +202,7 @@ ol {
 }
 
 .education {
-  margin-top: 5px;
+  margin: 20px 0;
 }
 
 .education_position {
@@ -235,18 +239,22 @@ ol {
   margin-bottom: 20px;
   border-radius: 50%;
 }
+.contacts {
+  margin: 10px 0 0 0;
+}
 
-.contacts,
 .tech_skills,
 .soft_skills {
   margin-top: 20px;
+  margin-bottom: 20px;
   /* margin-bottom: 40px; */
   /* text-align: center; */
 }
 .contact-flex {
   display: flex;
   gap: 30px;
-  justify-content: center;
+  justify-content: start;
+  
 }
 
 .soft_skills {
@@ -315,4 +323,7 @@ ol {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+}
+.languages {
+  margin-top: 20px;
 }
