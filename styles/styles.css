@@ -1,6 +1,6 @@
 body {
   /* Стилі для body */
-  font-family: "Merriweather", serif;
+  font-family: 'Merriweather', serif;
   letter-spacing: 0.02em;
   color: black;
   background-color: #ffffff;
@@ -70,7 +70,6 @@ ol {
   border-bottom: solid 2px black;
   text-transform: uppercase;
   text-align: center;
-
 }
 
 /* projects styles */
@@ -207,6 +206,15 @@ h3 {
 .education {
   margin: 5px 0 5px 0;
 }
+.together {
+  display: flex;
+  justify-content: space-between;
+}
+.certificat {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
 
 .education_position {
   font-style: normal;
@@ -214,7 +222,7 @@ h3 {
   font-size: 14px;
   line-height: 20px;
   color: #434455;
-  margin-bottom: 14px;
+  margin-bottom: 10px;
   text-align: justify;
 }
 
@@ -314,13 +322,13 @@ h3 {
   padding: 0;
   /* flex-direction:column; */
   justify-content: space-around;
-
 }
 
 .soft_skills_item {
   color: rgb(10, 50, 10);
   margin-bottom: 14px;
-  text-decoration: none;}
+  text-decoration: none;
+}
 
 .soft_skills_text {
   font-style: normal;
