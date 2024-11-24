@@ -57,7 +57,7 @@ ol {
   font-size: 16px;
   line-height: 18px;
   color: black;
-  margin: 0;
+
   text-transform: uppercase;
 }
 
@@ -70,6 +70,7 @@ ol {
   border-bottom: solid 2px black;
   text-transform: uppercase;
   text-align: center;
+
 }
 
 /* projects styles */
@@ -204,7 +205,7 @@ h3 {
 }
 
 .education {
-  margin: 10px 0 5px 0;
+  margin: 5px 0 5px 0;
 }
 
 .education_position {
@@ -247,8 +248,8 @@ h3 {
 
 .tech_skills,
 .soft_skills {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
   /* margin-bottom: 40px; */
   /* text-align: center; */
 }
@@ -298,7 +299,7 @@ h3 {
 
 .tech_skills_item {
   color: rgb(10, 50, 10);
-  margin-bottom: 14px;
+  margin-bottom: 5px;
 }
 
 .tech_skills_text {
